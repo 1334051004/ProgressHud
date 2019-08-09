@@ -52,4 +52,18 @@ class _MyAppState extends State<MyApp> {
 
   ![ProgressHud.png](https://github.com/1334051004/ProgressHud/raw/master/example/ProgressHud.png)
 
+3、参数说明
 
+* loading  loading=false结束动画。loading=true开始动画。
+* child  加载内容显示子组件。
+* height 加载动画框的高度。
+* width  加载动画框的宽度。
+* color  加载动画框的颜色。
+* bgColor  遮罩层的背景色。
+* count  加载动画圆点的个数。
+* speed  加载动画旋转的速度。
+* opacity  遮罩层的透明度。
+
+4、关注微信公众号交流学习
+
+ ![关注公众号.jpg](https://github.com/1334051004/ProgressHud/raw/master/example/关注公众号.jpg)
