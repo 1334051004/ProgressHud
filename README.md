@@ -50,6 +50,6 @@ class _MyAppState extends State<MyApp> {
 
 3、效果图
 
-  ./example/ProgressHud.png
+  ![ProgressHud.png](./example/ProgressHud.png)
 
 
