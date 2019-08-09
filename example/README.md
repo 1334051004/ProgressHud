@@ -4,13 +4,37 @@ Demonstrates how to use the progress_hud10 plugin.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
 
-A few resources to get you started if this is your first Flutter project:
+class _MyAppState extends State<MyApp> {
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  final key = GlobalKey<ProgressHudState>();
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  @override
+  void initState() {
+    super.initState();
+    
+    Future.delayed(const Duration(seconds:30), (){
+        this.key.currentState.updateLoad(false);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.red,
+          title: const Text('星星编程'),
+        ),
+        body: ProgressHud(key:this.key,loading: true ,color: Colors.red,width: 160,height: 160, child: Center(
+        child: Text("加载动画简单示例"),
+      ),
+      ),
+    )
+    );
+  }
+}
