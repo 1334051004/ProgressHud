@@ -11,6 +11,7 @@ dependencies:
 
 2、示例
 
+```
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
@@ -45,6 +46,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+```
 
 3、效果图
 
