@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('星星编程'),
         ),
         body: ProgressHud(key:this.key,loading: true ,width: 160,height: 160, child: Center(
-        child: Text("加载动画结束"),
+        child: Text("加载动画简单示例"),
       ),
       ),
     )

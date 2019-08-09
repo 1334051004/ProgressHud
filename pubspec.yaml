@@ -1,8 +1,8 @@
 name: progress_hud10
-description: A new flutter plugin project.
+description: Flutter加载动画.
 version: 0.0.1
-author: 星星编程
-homepage: 
+author: 星星编程 <roadtoenterprise.gmail.com>
+homepage: https://github.com/1334051004/ProgressHud
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
