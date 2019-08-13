@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  final key = GlobalKey<ProgressHudState>();
+  final key = GlobalKey<ProgressHud10State>();
 
   @override
   void initState() {
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
           backgroundColor: Colors.red,
           title: const Text('星星编程'),
         ),
-        body: ProgressHud(key:this.key,loading: true ,color: Colors.red,width: 160,height: 160, child: Center(
+        body: ProgressHud10(key:this.key,loading: true ,color: Colors.red,width: 160,height: 160, child: Center(
         child: Text("加载动画简单示例"),
       ),
       ),

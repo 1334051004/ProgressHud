@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:math';
-import 'package:progress_hud10/RoundPainter.dart';
+import 'package:progress_hud10/round_painter.dart';
  
 
-class ProgressHud extends StatefulWidget {
+class ProgressHud10 extends StatefulWidget {
   final bool loading;
   final Widget child;
   final double height;
@@ -16,7 +16,7 @@ class ProgressHud extends StatefulWidget {
   final double opacity;
  
 
-  ProgressHud( 
+  ProgressHud10( 
       {Key key,
       @required this.loading,
       @required this.child,
@@ -31,11 +31,11 @@ class ProgressHud extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return ProgressHudState();
+    return ProgressHud10State();
   }
 }
 
-class ProgressHudState extends State<ProgressHud> {
+class ProgressHud10State extends State<ProgressHud10> {
   Timer timer;
   bool loading;
   Widget child;
