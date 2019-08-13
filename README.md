@@ -7,7 +7,7 @@ progress_hud10是个简单的加载动画。
 1、添加依赖
 
 dependencies:
-  dio: ^1.1.1  
+  dio: ^1.1.2  
 
 2、示例
 
