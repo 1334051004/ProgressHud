@@ -7,7 +7,7 @@ progress_hud10是个简单的加载动画。
 1、添加依赖
 
 dependencies:
-  dio: ^0.0.2   
+  dio: ^0.1.1  
 
 2、示例
 
@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
 
   ![ProgressHud.png](https://github.com/1334051004/ProgressHud/raw/master/example/ProgressHud.png)
 
-3、参数说明
+4、参数说明
 
 * loading  loading=false结束动画。loading=true开始动画。
 * child  加载内容显示子组件。
@@ -64,6 +64,6 @@ class _MyAppState extends State<MyApp> {
 * speed  加载动画旋转的速度。
 * opacity  遮罩层的透明度。
 
-4、关注微信公众号交流学习
+5、关注微信公众号交流学习
 
  ![关注公众号.jpg](https://github.com/1334051004/ProgressHud/raw/master/example/关注公众号.jpg)

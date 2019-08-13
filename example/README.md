@@ -4,6 +4,7 @@ Demonstrates how to use the progress_hud10 plugin.
 
 ## Getting Started
 
+```
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
@@ -38,3 +39,4 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+```

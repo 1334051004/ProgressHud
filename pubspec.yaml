@@ -1,7 +1,7 @@
 name: progress_hud10
-description: Flutter加载动画.
-version: 0.0.2
-author: 星星编程 <roadtoenterprise.gmail.com>
+description: A clean and lightweight progress HUD for your Flutter app
+version: 0.1.1
+author: stars <roadtoenterprise.gmail.com>
 homepage: https://github.com/1334051004/ProgressHud
 
 environment:
